@@ -16,4 +16,78 @@
            :kotoba {:replace-deps {io.github.kotoba-lang/amu
                                    {:git/url "https://github.com/kotoba-lang/amu.git"
                                     :git/sha "78f43e64125e9c4bbe2bfb3a9520ae4b767dc275"}}
-                    :main-opts ["-m" "kotoba.compiler.cli"]}}}
+                    :main-opts ["-m" "kotoba.compiler.cli"]
+                    :override-deps {
+                                    io.github.kotoba-lang/bytes
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.bytes"}
+                                    io.github.kotoba-lang/coll
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.coll"}
+                                    io.github.kotoba-lang/edn
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.edn"}
+                                    io.github.kotoba-lang/error
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.error"}
+                                    io.github.kotoba-lang/io
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.io"}
+                                    io.github.kotoba-lang/io-multiformats
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.ioMultiformats"}
+                                    io.github.kotoba-lang/kotoba-script
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.kotobaScript"}
+                                    io.github.kotoba-lang/org-ietf-cbor
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/org.ietf.cbor"}
+                                    io.github.kotoba-lang/org-ietf-ed25519
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/org.ietf.ed25519"}
+                                    io.github.kotoba-lang/org-ietf-x25519
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/org.ietf.x25519"}
+                                    io.github.kotoba-lang/org-nist-sha2
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/gov.nist.sha2"}
+                                    io.github.kotoba-lang/pprint
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.pprint"}
+                                    io.github.kotoba-lang/security
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.security"}
+                                    io.github.kotoba-lang/set
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.set"}
+                                    io.github.kotoba-lang/spec
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.spec"}
+                                    io.github.kotoba-lang/test
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.test"}
+                                    io.github.kotoba-lang/text
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.text"}
+                                    io.github.kotoba-lang/walk
+                                    {:git/url "https://github.com/kotoba-lang/kotoba"
+                                     :git/sha "ee75001ee44a9b793602d1549e5e977c4562a5fe"
+                                     :deps/root "lib/kotoba.walk"}
+                    }}}}
